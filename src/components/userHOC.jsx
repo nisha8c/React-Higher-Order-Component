@@ -1,3 +1,6 @@
+// Higher Order component Example.
+// Note: name of HOC starts with small letter, unlike normal react components.
+
 import {Component, useEffect, useState} from "react";
 
 const userHOC = (Component) => {
